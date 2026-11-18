@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigiRise | Professional Website Development for Small Businesses</title>
+  <meta name="description" content="DigiRise helps small businesses build a professional online presence through modern website development and practical digital solutions.">
+  <link rel="canonical" href="https://your-domain-placeholder.com/">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="DigiRise | Professional Website Development for Small Businesses">
+  <meta property="og:description" content="DigiRise helps small businesses build a professional online presence through modern website development and practical digital solutions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-domain-placeholder.com/">
+
+  <!-- Favicon Placeholder -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+
+  <!-- Google Fonts: Space Grotesk & DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. NAVIGATION BAR -->
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="DigiRise Home">
+        <span class="logo-mark">DR</span>
+        <span class="logo-text">Digi<span class="text-accent">Rise</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary nav-cta-mobile">Let's Talk</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary nav-cta-desktop">Let's Talk</a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="slogan-badge">
+            <span class="pulse-dot"></span>
+            <span>BUILD. CONNECT. GROW.</span>
+          </div>
+          <h1 class="hero-title">
+            Your Business. <span class="text-cyan">A Bigger Digital Future.</span>
+          </h1>
+          <p class="hero-subtitle">
+            We turn your business ideas into powerful digital experiences. From professional websites to a complete online presence, DigiRise helps your business get discovered and grow.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              <span>Start Your Project</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#services" class="btn btn-secondary btn-lg">
+              <span>Explore Services</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Creative Digital-Agency Browser & Device Mockup -->
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="browser-mockup">
+            <div class="browser-header">
+              <div class="browser-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="browser-address">https://yourbusiness.in</div>
+              <div class="browser-status">SSL Active</div>
+            </div>
+            <div class="browser-body">
+              <div class="mock-hero-bar">
+                <div class="mock-pill"></div>
+                <div class="mock-title-line"></div>
+                <div class="mock-title-line short"></div>
+                <div class="mock-btn-row">
+                  <span class="mock-btn-red"></span>
+                  <span class="mock-btn-outline"></span>
+                </div>
+              </div>
+              <div class="mock-cards-grid">
+                <div class="mock-card">
+                  <div class="mock-icon-circle"></div>
+                  <div class="mock-line"></div>
+                  <div class="mock-line muted"></div>
+                </div>
+                <div class="mock-card">
+                  <div class="mock-icon-circle cyan"></div>
+                  <div class="mock-line"></div>
+                  <div class="mock-line muted"></div>
+                </div>
+                <div class="mock-card">
+                  <div class="mock-icon-circle"></div>
+                  <div class="mock-line"></div>
+                  <div class="mock-line muted"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating UI Cards -->
+            <div class="floating-card float-card-top">
+              <i data-lucide="globe"></i>
+              <div>
+                <strong>Online Presence</strong>
+                <span>Responsive & Fast</span>
+              </div>
+            </div>
+
+            <div class="floating-card float-card-bottom">
+              <i data-lucide="message-circle"></i>
+              <div>
+                <strong>WhatsApp Inquiry</strong>
+                <span>Direct Customer Chat</span>
+              </div>
+            </div>
+
+            <div class="floating-mobile-frame">
+              <div class="mobile-notch"></div>
+              <div class="mobile-screen-line"></div>
+              <div class="mobile-screen-block"></div>
+              <div class="mobile-screen-cta"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TRUST / BRAND STATEMENT STRIP -->
+    <section class="trust-strip" aria-label="Brand Statement">
+      <div class="container trust-strip-inner">
+        <span class="trust-item">WE HELP SMALL BUSINESSES</span>
+        <span class="trust-separator" aria-hidden="true">•</span>
+        <span class="trust-item highlight">BUILD. CONNECT. GROW.</span>
+        <span class="trust-separator" aria-hidden="true">•</span>
+        <span class="trust-item">YOUR DIGITAL JOURNEY STARTS HERE.</span>
+      </div>
+    </section>
+
+    <!-- 4. BUSINESS PROBLEMS SECTION -->
+    <section class="section section-dark" id="problems">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">The Challenge</span>
+          <h2 class="section-title">Your Business Deserves More Than Just Word of Mouth.</h2>
+          <p class="section-desc">
+            Customers search online before making decisions. Without a professional digital presence, your business may miss valuable opportunities.
+          </p>
+        </div>
+
+        <div class="cards-grid-3">
+          <article class="problem-card reveal">
+            <div class="card-icon-wrap icon-red">
+              <i data-lucide="monitor-off"></i>
+            </div>
+            <h3 class="card-title">No Professional Website</h3>
+            <p class="card-text">
+              Customers have nowhere reliable to explore your services, products, and business information.
+            </p>
+          </article>
+
+          <article class="problem-card reveal">
+            <div class="card-icon-wrap icon-red">
+              <i data-lucide="search-x"></i>
+            </div>
+            <h3 class="card-title">Low Online Visibility</h3>
+            <p class="card-text">
+              Potential customers may struggle to discover your business when searching online.
+            </p>
+          </article>
+
+          <article class="problem-card reveal">
+            <div class="card-icon-wrap icon-red">
+              <i data-lucide="user-x"></i>
+            </div>
+            <h3 class="card-title">Missed Opportunities</h3>
+            <p class="card-text">
+              Without convenient digital communication, interested customers may move to competitors.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SERVICES SECTION -->
+    <section class="section section-secondary" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Our Solutions</span>
+          <h2 class="section-title">Everything Your Business Needs to Grow Online.</h2>
+          <p class="section-desc">
+            Practical digital solutions that help your business build credibility, reach customers, and grow.
+          </p>
+        </div>
+
+        <div class="cards-grid-3">
+          <!-- Service 1 -->
+          <article class="service-card reveal">
+            <div class="card-icon-wrap icon-cyan">
+              <i data-lucide="layout-template"></i>
+            </div>
+            <h3 class="card-title">Website Development</h3>
+            <p class="card-text">
+              Professional, responsive websites designed to showcase your business and turn visitors into customers.
+            </p>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card reveal">
+            <div class="card-icon-wrap icon-cyan">
+              <i data-lucide="map-pin"></i>
+            </div>
+            <h3 class="card-title">Google Business Presence</h3>
+            <p class="card-text">
+              Help customers discover your business through a properly configured Google Business Profile.
+            </p>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card reveal">
+            <div class="card-icon-wrap icon-cyan">
+              <i data-lucide="message-square"></i>
+            </div>
+            <h3 class="card-title">WhatsApp Business Integration</h3>
+            <p class="card-text">
+              Make it easier for customers to contact your business and send inquiries directly through WhatsApp.
+            </p>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card reveal">
+            <div class="card-icon-wrap icon-cyan">
+              <i data-lucide="wrench"></i>
+            </div>
+            <h3 class="card-title">Website Maintenance</h3>
+            <p class="card-text">
+              Keep your website updated, functional, and properly maintained through an agreed maintenance plan.
+            </p>
+          </article>
+
+          <!-- Service 5 -->
+          <article class="service-card reveal">
+            <div class="card-icon-wrap icon-cyan">
+              <i data-lucide="refresh-cw"></i>
+            </div>
+            <h3 class="card-title">Website Redesign</h3>
+            <p class="card-text">
+              Transform an outdated website into a modern, responsive, professional digital experience.
+            </p>
+          </article>
+
+          <!-- Service 6 -->
+          <article class="service-card reveal">
+            <div class="card-icon-wrap icon-cyan">
+              <i data-lucide="server"></i>
+            </div>
+            <h3 class="card-title">Domain and Hosting Assistance</h3>
+            <p class="card-text">
+              Get assistance choosing and configuring the domain and hosting required for your website.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. WHY CHOOSE DIGIRISE SECTION (Anchored as #about for Navigation) -->
+    <section class="section section-light" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow eyebrow-dark">About Our Approach</span>
+          <h2 class="section-title text-dark">Why Businesses Choose DigiRise.</h2>
+        </div>
+
+        <div class="cards-grid-4">
+          <article class="feature-card-light reveal">
+            <div class="card-icon-wrap icon-dark">
+              <i data-lucide="briefcase"></i>
+            </div>
+            <h3 class="card-title text-dark">Business-Focused Approach</h3>
+            <p class="card-text text-dark-muted">
+              We focus on understanding your business goals before creating your digital solution.
+            </p>
+          </article>
+
+          <article class="feature-card-light reveal">
+            <div class="card-icon-wrap icon-dark">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <h3 class="card-title text-dark">Modern Design</h3>
+            <p class="card-text text-dark-muted">
+              Clean, professional, responsive websites that create a strong first impression.
+            </p>
+          </article>
+
+          <article class="feature-card-light reveal">
+            <div class="card-icon-wrap icon-dark">
+              <i data-lucide="smartphone"></i>
+            </div>
+            <h3 class="card-title text-dark">Mobile-Friendly Experience</h3>
+            <p class="card-text text-dark-muted">
+              Websites designed to work smoothly across smartphones, tablets, laptops, and desktops.
+            </p>
+          </article>
+
+          <article class="feature-card-light reveal">
+            <div class="card-icon-wrap icon-dark">
+              <i data-lucide="life-buoy"></i>
+            </div>
+            <h3 class="card-title text-dark">Ongoing Support</h3>
+            <p class="card-text text-dark-muted">
+              Clear support options to help you manage and maintain your digital presence.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. HOW IT WORKS SECTION -->
+    <section class="section section-dark" id="how-it-works">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Our Process</span>
+          <h2 class="section-title">From Idea to Online Presence in Four Simple Steps.</h2>
+        </div>
+
+        <div class="timeline-grid">
+          <div class="timeline-step reveal">
+            <div class="step-badge">01</div>
+            <h3 class="card-title">Share Your Idea</h3>
+            <p class="card-text">
+              Tell us about your business, your goals, and what you need.
+            </p>
+          </div>
+
+          <div class="timeline-step reveal">
+            <div class="step-badge">02</div>
+            <h3 class="card-title">We Plan and Design</h3>
+            <p class="card-text">
+              We create a suitable website structure and design for your business.
+            </p>
+          </div>
+
+          <div class="timeline-step reveal">
+            <div class="step-badge">03</div>
+            <h3 class="card-title">Review and Approve</h3>
+            <p class="card-text">
+              Review the website, provide feedback, and approve the final version.
+            </p>
+          </div>
+
+          <div class="timeline-step reveal">
+            <div class="step-badge">04</div>
+            <h3 class="card-title">Launch and Grow</h3>
+            <p class="card-text">
+              Publish your website and establish your online presence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. PRICING SECTION -->
+    <section class="section section-secondary" id="pricing">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Transparent Plans</span>
+          <h2 class="section-title">Simple Pricing. Long-Term Digital Growth.</h2>
+          <p class="section-desc">
+            Choose the website plan that fits your business. Get a professional online presence with the flexibility to choose Protection Shield support.
+          </p>
+        </div>
+
+        <!-- CATEGORY A: WITH PROTECTION SHIELD -->
+        <div class="pricing-category-block reveal">
+          <div class="category-header category-shield">
+            <div class="category-title-wrap">
+              <i data-lucide="shield-check"></i>
+              <h3>Category A: With Protection Shield</h3>
+            </div>
+            <span class="category-pill">Includes Additional Protection &amp; Ongoing Support</span>
+          </div>
+
+          <div class="cards-grid-3">
+            <!-- Plan A1: 1 Year -->
+            <article class="pricing-card">
+              <div class="pricing-card-top">
+                <span class="plan-duration">1 Year Subscription</span>
+                <div class="plan-price">₹9,000</div>
+                <p class="plan-monthly">Equivalent monthly cost: <strong>₹750 / month</strong></p>
+              </div>
+              <ul class="plan-meta-list">
+                <li><i data-lucide="check"></i><span>Duration: 1 Year</span></li>
+                <li><i data-lucide="shield"></i><span>Protection Shield Included</span></li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-block choose-plan-btn"
+                data-plan-id="shield-1yr"
+                data-plan-label="1 Year – ₹9,000 – With Protection Shield"
+                data-shield="With Protection Shield">
+                Choose Plan
+              </button>
+            </article>
+
+            <!-- Plan A2: 2 Years (Recommended) -->
+            <article class="pricing-card featured-plan">
+              <div class="recommended-badge">Recommended</div>
+              <div class="pricing-card-top">
+                <span class="plan-duration">2 Years Subscription</span>
+                <div class="plan-price">₹16,000</div>
+                <p class="plan-monthly">Equivalent monthly cost: <strong>Approximately ₹667 / month</strong></p>
+              </div>
+              <ul class="plan-meta-list">
+                <li><i data-lucide="check"></i><span>Duration: 2 Years</span></li>
+                <li><i data-lucide="shield"></i><span>Protection Shield Included</span></li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-primary btn-block choose-plan-btn"
+                data-plan-id="shield-2yr"
+                data-plan-label="2 Years – ₹16,000 – With Protection Shield"
+                data-shield="With Protection Shield">
+                Choose Plan
+              </button>
+            </article>
+
+            <!-- Plan A3: 4 Years -->
+            <article class="pricing-card">
+              <div class="pricing-card-top">
+                <span class="plan-duration">4 Years Subscription</span>
+                <div class="plan-price">₹30,000</div>
+                <p class="plan-monthly">Equivalent monthly cost: <strong>₹625 / month</strong></p>
+              </div>
+              <ul class="plan-meta-list">
+                <li><i data-lucide="check"></i><span>Duration: 4 Years</span></li>
+                <li><i data-lucide="shield"></i><span>Protection Shield Included</span></li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-block choose-plan-btn"
+                data-plan-id="shield-4yr"
+                data-plan-label="4 Years – ₹30,000 – With Protection Shield"
+                data-shield="With Protection Shield">
+                Choose Plan
+              </button>
+            </article>
+          </div>
+        </div>
+
+        <!-- CATEGORY B: WITHOUT PROTECTION SHIELD -->
+        <div class="pricing-category-block reveal">
+          <div class="category-header category-standard">
+            <div class="category-title-wrap">
+              <i data-lucide="globe"></i>
+              <h3>Category B: Without Protection Shield</h3>
+            </div>
+            <span class="category-pill pill-muted">Standard Website Package</span>
+          </div>
+
+          <div class="cards-grid-3">
+            <!-- Plan B1: 1 Year -->
+            <article class="pricing-card">
+              <div class="pricing-card-top">
+                <span class="plan-duration">1 Year Subscription</span>
+                <div class="plan-price">₹7,000</div>
+                <p class="plan-monthly">Equivalent monthly cost: <strong>Approximately ₹583 / month</strong></p>
+              </div>
+              <ul class="plan-meta-list">
+                <li><i data-lucide="check"></i><span>Duration: 1 Year</span></li>
+                <li><i data-lucide="minus-circle"></i><span>Without Protection Shield</span></li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-block choose-plan-btn"
+                data-plan-id="noshield-1yr"
+                data-plan-label="1 Year – ₹7,000 – Without Protection Shield"
+                data-shield="Without Protection Shield">
+                Choose Plan
+              </button>
+            </article>
+
+            <!-- Plan B2: 2 Years -->
+            <article class="pricing-card">
+              <div class="pricing-card-top">
+                <span class="plan-duration">2 Years Subscription</span>
+                <div class="plan-price">₹13,000</div>
+                <p class="plan-monthly">Equivalent monthly cost: <strong>Approximately ₹542 / month</strong></p>
+              </div>
+              <ul class="plan-meta-list">
+                <li><i data-lucide="check"></i><span>Duration: 2 Years</span></li>
+                <li><i data-lucide="minus-circle"></i><span>Without Protection Shield</span></li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-block choose-plan-btn"
+                data-plan-id="noshield-2yr"
+                data-plan-label="2 Years – ₹13,000 – Without Protection Shield"
+                data-shield="Without Protection Shield">
+                Choose Plan
+              </button>
+            </article>
+
+            <!-- Plan B3: 4 Years -->
+            <article class="pricing-card">
+              <div class="pricing-card-top">
+                <span class="plan-duration">4 Years Subscription</span>
+                <div class="plan-price">₹24,000</div>
+                <p class="plan-monthly">Equivalent monthly cost: <strong>₹500 / month</strong></p>
+              </div>
+              <ul class="plan-meta-list">
+                <li><i data-lucide="check"></i><span>Duration: 4 Years</span></li>
+                <li><i data-lucide="minus-circle"></i><span>Without Protection Shield</span></li>
+              </ul>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-block choose-plan-btn"
+                data-plan-id="noshield-4yr"
+                data-plan-label="4 Years – ₹24,000 – Without Protection Shield"
+                data-shield="Without Protection Shield">
+                Choose Plan
+              </button>
+            </article>
+          </div>
+        </div>
+
+        <!-- PRICING NOTE -->
+        <div class="pricing-note reveal">
+          <i data-lucide="info"></i>
+          <p>
+            Prices are based on the selected subscription duration. Domain, hosting, third-party subscriptions, taxes, and additional requirements should be clearly specified before purchase.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. PROTECTION SHIELD EXPLANATION SECTION -->
+    <section class="section section-dark" id="protection-shield">
+      <div class="container">
+        <div class="shield-panel reveal">
+          <div class="shield-content">
+            <div class="shield-badge">
+              <i data-lucide="shield"></i>
+              <span>Optional Support Package</span>
+            </div>
+            <h2 class="section-title">Extra Protection. Greater Peace of Mind.</h2>
+            <p class="section-desc">
+              Choose Protection Shield for additional website protection and ongoing support, based on the services included in your selected plan.
+            </p>
+
+            <!-- Editable Proposed Features List -->
+            <div class="shield-features-grid">
+              <div class="shield-feature-item">
+                <i data-lucide="activity"></i>
+                <span>Website security monitoring</span>
+              </div>
+              <div class="shield-feature-item">
+                <i data-lucide="database-backup"></i>
+                <span>Regular website backups</span>
+              </div>
+              <div class="shield-feature-item">
+                <i data-lucide="shield-alert"></i>
+                <span>Security updates</span>
+              </div>
+              <div class="shield-feature-item">
+                <i data-lucide="headphones"></i>
+                <span>Technical assistance</span>
+              </div>
+            </div>
+
+            <p class="shield-disclaimer">
+              Note: Specific Protection Shield deliverables and scope are confirmed according to your selected plan agreement prior to project commencement.
+            </p>
+
+            <a href="#pricing" class="btn btn-primary">
+              <span>Explore Protection Plans</span>
+              <i data-lucide="arrow-up-right"></i>
+            </a>
+          </div>
+
+          <div class="shield-illustration" aria-hidden="true">
+            <div class="shield-core">
+              <i data-lucide="shield-check"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. TESTIMONIALS SECTION -->
+    <section class="section section-secondary" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Client Feedback</span>
+          <h2 class="section-title">What Businesses Say About Working With Us.</h2>
+        </div>
+
+        <!-- Honest Placeholder (Ready for real testimonials later) -->
+        <div class="testimonial-placeholder reveal">
+          <div class="placeholder-icon">
+            <i data-lucide="message-square-quote"></i>
+          </div>
+          <h3>Customer stories coming soon.</h3>
+          <p>
+            We are committed to transparency. Real feedback and stories from our small business partners will be published here as projects conclude.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. FAQ SECTION -->
+    <section class="section section-dark" id="faq">
+      <div class="container faq-container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-accordion reveal" id="faqAccordion">
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>What does DigiRise do?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                <p>DigiRise helps small businesses establish a professional online presence through website development and essential digital services.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Which businesses can work with DigiRise?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                <p>We work with restaurants, shops, salons, bakeries, local service providers, startups, and other small businesses.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>What is included in the website package?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                <p>The exact website scope, pages, features, and deliverables will be confirmed before the project begins.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>What is Protection Shield?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                <p>Protection Shield is an optional service package that provides additional website protection and support according to the features included in your selected plan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Can I choose a plan without Protection Shield?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                <p>Yes. DigiRise offers plans both with and without Protection Shield.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Are domain and hosting included?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                <p>Domain and hosting arrangements depend on the selected package and will be clearly specified before purchase.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>How do I get started?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                <p>Choose a suitable pricing plan and contact DigiRise through the inquiry form or WhatsApp.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Can I request custom website features?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                <p>Yes. Additional features and custom requirements can be discussed before the project begins. Additional costs may apply.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. CONTACT SECTION -->
+    <section class="section section-secondary" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Start Your Journey</span>
+          <h2 class="section-title">Let's Build Something Great for Your Business.</h2>
+          <p class="section-desc">
+            Tell us about your business and what you want to achieve online. We'll discuss a suitable solution for your requirements.
+          </p>
+        </div>
+
+        <div class="contact-card reveal">
+          <!-- Active Plan Selection Banner -->
+          <div class="plan-selection-banner" id="planSelectionBanner" aria-live="polite" hidden>
+            <i data-lucide="check-circle-2"></i>
+            <span>Selected Plan: <strong id="bannerPlanText"></strong></span>
+          </div>
+
+          <form id="inquiryForm" novalidate>
+            <div class="form-grid">
+              <!-- 1. Full Name -->
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="req">*</span></label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required autocomplete="name">
+                <span class="error-msg" id="fullNameError" role="alert"></span>
+              </div>
+
+              <!-- 2. Business Name -->
+              <div class="form-group">
+                <label for="businessName">Business Name <span class="req">*</span></label>
+                <input type="text" id="businessName" name="businessName" placeholder="e.g., Aroma Cafe & Bakery" required autocomplete="organization">
+                <span class="error-msg" id="businessNameError" role="alert"></span>
+              </div>
+
+              <!-- 3. Email Address -->
+              <div class="form-group">
+                <label for="emailAddress">Email Address <span class="req">*</span></label>
+                <input type="email" id="emailAddress" name="emailAddress" placeholder="you@example.com" required autocomplete="email">
+                <span class="error-msg" id="emailAddressError" role="alert"></span>
+              </div>
+
+              <!-- 4. WhatsApp Number -->
+              <div class="form-group">
+                <label for="whatsappNumber">WhatsApp Number <span class="req">*</span></label>
+                <input type="tel" id="whatsappNumber" name="whatsappNumber" placeholder="10-digit mobile number" required autocomplete="tel">
+                <span class="error-msg" id="whatsappNumberError" role="alert"></span>
+              </div>
+
+              <!-- 5. Business Category -->
+              <div class="form-group">
+                <label for="businessCategory">Business Category <span class="req">*</span></label>
+                <select id="businessCategory" name="businessCategory" required>
+                  <option value="">Select business category</option>
+                  <option value="Restaurant / Cafe">Restaurant / Cafe</option>
+                  <option value="Retail / Shop">Retail / Shop</option>
+                  <option value="Clothing Store">Clothing Store</option>
+                  <option value="Salon / Beauty">Salon / Beauty</option>
+                  <option value="Bakery">Bakery</option>
+                  <option value="Local Services">Local Services</option>
+                  <option value="Startup">Startup</option>
+                  <option value="Personal Business">Personal Business</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="error-msg" id="businessCategoryError" role="alert"></span>
+              </div>
+
+              <!-- 6. Service Required -->
+              <div class="form-group">
+                <label for="serviceRequired">Service Required <span class="req">*</span></label>
+                <select id="serviceRequired" name="serviceRequired" required>
+                  <option value="Website Development">Website Development</option>
+                  <option value="Google Business Presence">Google Business Presence</option>
+                  <option value="WhatsApp Business Integration">WhatsApp Business Integration</option>
+                  <option value="Website Maintenance">Website Maintenance</option>
+                  <option value="Website Redesign">Website Redesign</option>
+                  <option value="Domain and Hosting Assistance">Domain and Hosting Assistance</option>
+                  <option value="Multiple Services">Multiple Services</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="error-msg" id="serviceRequiredError" role="alert"></span>
+              </div>
+
+              <!-- 7. Selected Pricing Plan -->
+              <div class="form-group">
+                <label for="selectedPlan">Selected Pricing Plan <span class="req">*</span></label>
+                <select id="selectedPlan" name="selectedPlan" required>
+                  <option value="Not Decided Yet">Not Decided Yet</option>
+                  <option value="1 Year – ₹9,000 – With Protection Shield">1 Year – ₹9,000 – With Protection Shield</option>
+                  <option value="2 Years – ₹16,000 – With Protection Shield">2 Years – ₹16,000 – With Protection Shield</option>
+                  <option value="4 Years – ₹30,000 – With Protection Shield">4 Years – ₹30,000 – With Protection Shield</option>
+                  <option value="1 Year – ₹7,000 – Without Protection Shield">1 Year – ₹7,000 – Without Protection Shield</option>
+                  <option value="2 Years – ₹13,000 – Without Protection Shield">2 Years – ₹13,000 – Without Protection Shield</option>
+                  <option value="4 Years – ₹24,000 – Without Protection Shield">4 Years – ₹24,000 – Without Protection Shield</option>
+                </select>
+                <span class="error-msg" id="selectedPlanError" role="alert"></span>
+              </div>
+
+              <!-- 8. Protection Shield Preference -->
+              <div class="form-group">
+                <label for="protectionPreference">Protection Shield Preference <span class="req">*</span></label>
+                <select id="protectionPreference" name="protectionPreference" required>
+                  <option value="With Protection Shield">With Protection Shield</option>
+                  <option value="Without Protection Shield">Without Protection Shield</option>
+                </select>
+                <span class="error-msg" id="protectionPreferenceError" role="alert"></span>
+              </div>
+
+              <!-- 9. Additional Message -->
+              <div class="form-group form-group-full">
+                <label for="additionalMessage">Additional Message</label>
+                <textarea id="additionalMessage" name="additionalMessage" rows="4" placeholder="Tell us about your business goals, timeline, or specific requirements..."></textarea>
+              </div>
+            </div>
+
+            <div class="form-submit-area">
+              <button type="submit" class="btn btn-primary btn-lg" id="submitInquiryBtn">
+                <i data-lucide="message-circle"></i>
+                <span>Continue to WhatsApp</span>
+              </button>
+              <p class="handoff-note">
+                Clicking above formats your details and opens WhatsApp. Please review the generated message and press <strong>Send</strong> inside WhatsApp to complete your inquiry.
+              </p>
+            </div>
+
+            <div class="form-feedback" id="formFeedback" role="status" aria-live="polite" hidden></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 13. FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo" aria-label="DigiRise Home">
+          <span class="logo-mark">DR</span>
+          <span class="logo-text">Digi<span class="text-accent">Rise</span></span>
+        </a>
+        <p class="footer-slogan">BUILD. CONNECT. GROW.</p>
+        <p class="footer-desc">
+          Helping small businesses build a stronger digital presence through professional websites and practical digital solutions.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer Quick Links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav" aria-label="Footer Legal Links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="pages/terms.html">Terms and Conditions</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="currentYear"></span> DigiRise. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING ELEMENTS -->
+  <a
+    href="#"
+    class="floating-whatsapp"
+    id="floatingWhatsappBtn"
+    aria-label="Chat with DigiRise on WhatsApp"
+    title="Chat with us on WhatsApp">
+    <i data-lucide="message-circle"></i>
+  </a>
+
+  <button
+    type="button"
+    class="back-to-top"
+    id="backToTopBtn"
+    aria-label="Scroll back to top"
+    title="Back to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- External JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
