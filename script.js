@@ -8,7 +8,7 @@
    ========================================================================== */
 const DIGIRISE_CONFIG = {
   // Replace 91XXXXXXXXXX with your active 12-digit WhatsApp number (e.g., "919876543210")
-  WHATSAPP_NUMBER: "8310964281",
+  WHATSAPP_NUMBER: "+918310964281",
   DEFAULT_GREETING: "Hello DigiRise, I would like to discuss a website and digital presence for my business."
 };
 
